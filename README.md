@@ -2,8 +2,6 @@
 
 ## About This Project
 
-This project contains the basic structure used by me for React projects.
-
 This project contains the basic structure used by [CODERAMOS](https://github.com/coderamos) for React projects.
 
 ## Avaliable Scripts
