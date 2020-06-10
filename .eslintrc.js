@@ -48,10 +48,9 @@ module.exports = {
         newlinesBetween: 'always',
         groups: [
           '/^react/',
-          '/styled-components/',
+          '/^redux/',
           'module',
-          '/^pages/',
-          '/^components/',
+          '/^~/',
           ['parent', 'sibling', 'index'],
         ],
         alphabetize: { order: 'asc', ignoreCase: true },
@@ -60,11 +59,11 @@ module.exports = {
   },
   settings: {
     'import/resolver': {
-      node: {
-        paths: ['src'],
-      },
       'babel-plugin-root-import': {
         rootPathSuffix: 'src',
+      },
+      node: {
+        paths: ['src'],
       },
     },
   },

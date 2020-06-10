@@ -1,17 +1,11 @@
 export const colors = {
-  background1: '#c3c3c3',
-
-  black1: '#000',
-  white1: '#fff',
-};
-
-const defaultFontStyle = {
-  fontWeight: 300,
+  background: '#112233',
+  white: '#FFFFFF',
 };
 
 export const fontStyles = {
-  default: {
-    ...defaultFontStyle,
+  title: {
+    fontSize: 24,
   },
 };
 
@@ -22,21 +16,6 @@ export const grid = {
     md: 980,
     lg: 1200,
   },
-  row: {
-    padding: 5,
-  },
-  col: {
-    padding: 5,
-  },
-  container: {
-    padding: 5,
-    maxWidth: {
-      xs: 500,
-      sm: 736,
-      md: 980,
-      lg: 1200,
-    },
-  },
 };
 
 export const mediaQueries = {
@@ -46,4 +25,4 @@ export const mediaQueries = {
   lg: `(max-width: ${grid.breakpoints.lg}px)`,
 };
 
-export default { colors, grid, mediaQueries, fontStyles };
+export default { colors, fontStyles, grid, mediaQueries };

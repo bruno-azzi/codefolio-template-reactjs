@@ -2,8 +2,8 @@ import React from 'react';
 
 import { ThemeProvider } from 'styled-components';
 
-import Routes from 'routes';
-import { GlobalStyle, Theme } from 'styles';
+import Routes from '~/routes';
+import { GlobalStyle, Theme } from '~/styles';
 
 function App() {
   return (
