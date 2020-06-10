@@ -3,11 +3,11 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 
 import Routes from '~/routes';
-import { GlobalStyle, Theme } from '~/styles';
+import { GlobalStyle, theme } from '~/styles';
 
 function App() {
   return (
-    <ThemeProvider theme={Theme}>
+    <ThemeProvider theme={theme}>
       <Routes />
       <GlobalStyle />
     </ThemeProvider>
